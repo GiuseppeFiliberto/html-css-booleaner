@@ -1,0 +1,116 @@
+:root{
+    --bce-medium: #4ea0ff;
+    --bce-dark: #20a9e5;
+    --bce-light: #b1e5f2;
+    --bce-marker: #ffff00;
+}
+
+*{
+    margin: 0;
+}
+
+.container{
+    max-width: 50%;
+    margin: auto;
+}
+
+
+#title-page{
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: var(--bce-medium);
+    position: relative;
+    height: 100px;
+    width: 100%;
+
+}
+
+
+.logo{
+    max-width: 15%;
+    position: absolute;
+    bottom: 0%;
+}
+
+
+.title-article{
+    margin-top: 12px;
+    font-size: 35px;
+}
+
+.author{
+    color: lightgray;
+    font-size:  25px;
+}
+
+#lb-author{
+    color: var(--bce-dark);
+}
+
+#date{
+    font-size: 20px;
+}
+
+.text{  
+    margin-top: 30px;
+}
+
+.marker{
+    background-color: var(--bce-marker);
+}
+
+.list{
+    margin-top: 30px;
+    padding-inline-start: 20px;
+}
+
+.table-container{
+    margin-top: 20px;
+    text-align: left;
+    /* text-wrap: wrap; */
+}
+.table-title{
+    background-color: var(--bce-dark);
+    color: white;
+}
+
+.row-bg{
+    background-color: var(--bce-light);
+    text-wrap: wrap;
+}
+
+td{
+    width: 15%;
+}
+
+.card-section{
+    margin-top: 20px;
+}
+.card-title{
+    color: lightgray;
+    margin-bottom: 10px;
+}
+
+.card-text{
+    padding: 20px;
+    color: white;
+}
+.monitor-card{
+    background-image: url(../img/monitor.jpg);
+    width: 280px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.graph-card{
+    background-image: url(../img/graph.jpg);
+    width: 280px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: lightgrey;
+}
