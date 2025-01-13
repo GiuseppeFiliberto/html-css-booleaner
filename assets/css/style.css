@@ -1,0 +1,29 @@
+:root{
+    --bce-medium: #4ea0ff;
+    --bce-dark: #20a9e5;
+    --bce-light: #b1e5f2; 
+    --bce-marker: #ffff00; 
+}
+
+*{
+    margin: 0;
+}
+
+
+#title-page{
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: var(--bce-medium);
+    position: relative;
+    height: 100px;
+    width: 100%;
+
+}
+
+.logo{
+    max-width: 15%;
+    position: absolute;
+    bottom: 0%;
+}
+
+
