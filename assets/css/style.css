@@ -27,3 +27,20 @@
 }
 
 
+.title-article{
+    margin-top: 12px;
+    font-size: 35px;
+}
+
+.author{
+    color: lightgray;
+    font-size:  25px;
+}
+
+#lb-author{
+    color: var(--bce-dark);
+}
+
+#date{
+    font-size: 20px;
+}
