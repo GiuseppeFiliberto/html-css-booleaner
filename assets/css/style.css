@@ -48,3 +48,12 @@
 .text{  
     margin-top: 30px;
 }
+
+.marker{
+    background-color: var(--bce-marker);
+}
+
+.list{
+    margin-top: 30px;
+    padding-inline-start: 20px;
+}
