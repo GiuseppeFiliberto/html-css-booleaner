@@ -57,3 +57,12 @@
     margin-top: 30px;
     padding-inline-start: 20px;
 }
+
+.table-title{
+    background-color: var(--bce-dark);
+    color: white;
+}
+
+.row-bg{
+    background-color: var(--bce-light);
+}
