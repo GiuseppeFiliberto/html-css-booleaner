@@ -15,6 +15,8 @@
 }
 
 
+/* general settings */
+
 #title-page{
     background-image: url(../img/pattern.png);
     background-size: contain;
@@ -31,6 +33,8 @@
     position: absolute;
     bottom: 0%;
 }
+
+/* header-style */
 
 
 .title-article{
@@ -51,6 +55,9 @@
     font-size: 20px;
 }
 
+/* article-pictures-section */
+
+
 .text{  
     margin-top: 30px;
 }
@@ -63,6 +70,9 @@
     margin-top: 30px;
     padding-inline-start: 20px;
 }
+
+/* text-section */
+
 
 .table-container{
     margin-top: 20px;
@@ -78,10 +88,14 @@
     background-color: var(--bce-light);
     text-wrap: wrap;
 }
-
+table{
+    border-spacing: 0;
+}
 td{
     width: 15%;
 }
+/* table-section */
+
 
 .card-section{
     margin-top: 20px;
@@ -109,6 +123,8 @@ td{
     margin-bottom: 10px;
     margin-left: 10px;
 }
+
+/* cards-section */
 
 footer{
     text-align: center;
