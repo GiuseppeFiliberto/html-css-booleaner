@@ -61,6 +61,8 @@
 
 .table-container{
     margin-top: 20px;
+    text-align: left;
+    /* text-wrap: wrap; */
 }
 .table-title{
     background-color: var(--bce-dark);
@@ -70,6 +72,10 @@
 .row-bg{
     background-color: var(--bce-light);
     text-wrap: wrap;
+}
+
+td{
+    width: 15%;
 }
 
 .card-section{
